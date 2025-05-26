@@ -10,6 +10,7 @@ namespace ClickAcc
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Configuration.AddEnvironmentVariables();
             builder.Services.Configure<ReCaptchaSettings>(builder.Configuration.GetSection("ReCaptchaSettings"));
             builder.Services.AddHttpClient();
 
