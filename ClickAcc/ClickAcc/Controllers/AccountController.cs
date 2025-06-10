@@ -22,36 +22,17 @@ namespace ClickAcc.Controllers
 
         // ===== LOGIN =====
         [HttpGet]
-        public IActionResult Login() => View();
-
-        [HttpPost]
-        public IActionResult Login(LoginViewModel model)
+        public IActionResult Login()
         {
-            if (ModelState.IsValid)
-            {
-                if (model.Email == "test@test.com" && model.Password == "password")
-                {
-                    return RedirectToAction("Index", "Home");
-                }
-                ModelState.AddModelError("", "Invalid login credentials.");
-            }
-            return View(model);
-        }
-
-        // ===== REGISTER =====
-        [HttpGet]
-        public IActionResult Register()
-        {
-            var model = new RegisterViewModel
+            var model = new LoginViewModel
             {
                 ReCaptchaSiteKey = _captchaSettings.SiteKey
             };
             return View(model);
         }
 
-
         [HttpPost]
-        public async Task<IActionResult> Register(RegisterViewModel model)
+        public async Task<IActionResult> Login(LoginViewModel model)
         {
             var captchaResponse = Request.Form["g-recaptcha-response"];
             var isCaptchaValid = await VerifyCaptchaAsync(captchaResponse);
@@ -63,8 +44,11 @@ namespace ClickAcc.Controllers
 
             if (ModelState.IsValid)
             {
-                // TODO: Save user to DB
-                return RedirectToAction("Login");
+                if (model.Email == "test@test.com" && model.Password == "password")
+                {
+                    return RedirectToAction("Index", "Home");
+                }
+                ModelState.AddModelError("", "Invalid login credentials.");
             }
 
             // ✅ Re-pass SiteKey to redisplay form correctly after failed POST
@@ -82,6 +66,23 @@ namespace ClickAcc.Controllers
             var json = await result.Content.ReadAsStringAsync();
             using var doc = JsonDocument.Parse(json);
             return doc.RootElement.GetProperty("success").GetBoolean();
+        }
+
+        // ===== REGISTER =====
+        [HttpGet]
+        public IActionResult Register() => View();
+
+
+        [HttpPost]
+        public IActionResult Register(RegisterViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                // TODO: Save user to DB
+                return RedirectToAction("Login");
+            }
+
+            return View(model);
         }
     }
 }

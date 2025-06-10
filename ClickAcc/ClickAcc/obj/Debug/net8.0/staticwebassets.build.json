@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cq+8Uhr3HbsAZ7xsidG5YLcXLh6ABFpjPb4iKVlUBK0=",
+  "Hash": "j19H15XB9FtSztwWGYCECWeG8RFRgxUO2EL7AmymrdA=",
   "Source": "ClickAcc",
   "BasePath": "_content/ClickAcc",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "0rbxuncrz8",
-      "Integrity": "RCx6gOJ8U7XSeZRz2+zBJ2bHYG4Qu4BZqf1fc72ZFGM=",
+      "Fingerprint": "g65qsrxblp",
+      "Integrity": "uFSGwpd410JltskGn6mB2EOcqKEXdzQm55GqgT8YRWw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\auth.css"
@@ -1506,51 +1506,6 @@
       ]
     },
     {
-      "Route": "css/auth.0rbxuncrz8.css",
-      "AssetFile": "A:\\Creation\\GitHub Stuff\\click-acc\\ClickAcc\\ClickAcc\\wwwroot\\css\\auth.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3182"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"RCx6gOJ8U7XSeZRz2+zBJ2bHYG4Qu4BZqf1fc72ZFGM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 10:38:30 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "0rbxuncrz8"
-        },
-        {
-          "Name": "label",
-          "Value": "css/auth.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-RCx6gOJ8U7XSeZRz2+zBJ2bHYG4Qu4BZqf1fc72ZFGM="
-        }
-      ]
-    },
-    {
       "Route": "css/auth.css",
       "AssetFile": "A:\\Creation\\GitHub Stuff\\click-acc\\ClickAcc\\ClickAcc\\wwwroot\\css\\auth.css",
       "Selectors": [],
@@ -1561,7 +1516,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3182"
+          "Value": "4038"
         },
         {
           "Name": "Content-Type",
@@ -1569,11 +1524,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RCx6gOJ8U7XSeZRz2+zBJ2bHYG4Qu4BZqf1fc72ZFGM=\""
+          "Value": "\"uFSGwpd410JltskGn6mB2EOcqKEXdzQm55GqgT8YRWw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 10:38:30 GMT"
+          "Value": "Tue, 10 Jun 2025 10:04:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1583,7 +1538,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-RCx6gOJ8U7XSeZRz2+zBJ2bHYG4Qu4BZqf1fc72ZFGM="
+          "Value": "sha256-uFSGwpd410JltskGn6mB2EOcqKEXdzQm55GqgT8YRWw="
+        }
+      ]
+    },
+    {
+      "Route": "css/auth.g65qsrxblp.css",
+      "AssetFile": "A:\\Creation\\GitHub Stuff\\click-acc\\ClickAcc\\ClickAcc\\wwwroot\\css\\auth.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uFSGwpd410JltskGn6mB2EOcqKEXdzQm55GqgT8YRWw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 10:04:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g65qsrxblp"
+        },
+        {
+          "Name": "label",
+          "Value": "css/auth.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uFSGwpd410JltskGn6mB2EOcqKEXdzQm55GqgT8YRWw="
         }
       ]
     },

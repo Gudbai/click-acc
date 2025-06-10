@@ -85,51 +85,6 @@
       ]
     },
     {
-      "Route": "css/auth.0rbxuncrz8.css",
-      "AssetFile": "css/auth.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3182"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"RCx6gOJ8U7XSeZRz2+zBJ2bHYG4Qu4BZqf1fc72ZFGM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 10:38:30 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "0rbxuncrz8"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-RCx6gOJ8U7XSeZRz2+zBJ2bHYG4Qu4BZqf1fc72ZFGM="
-        },
-        {
-          "Name": "label",
-          "Value": "css/auth.css"
-        }
-      ]
-    },
-    {
       "Route": "css/auth.css",
       "AssetFile": "css/auth.css",
       "Selectors": [],
@@ -144,7 +99,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3182"
+          "Value": "4038"
         },
         {
           "Name": "Content-Type",
@@ -152,17 +107,62 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RCx6gOJ8U7XSeZRz2+zBJ2bHYG4Qu4BZqf1fc72ZFGM=\""
+          "Value": "\"uFSGwpd410JltskGn6mB2EOcqKEXdzQm55GqgT8YRWw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 10:38:30 GMT"
+          "Value": "Tue, 10 Jun 2025 10:04:06 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-RCx6gOJ8U7XSeZRz2+zBJ2bHYG4Qu4BZqf1fc72ZFGM="
+          "Value": "sha256-uFSGwpd410JltskGn6mB2EOcqKEXdzQm55GqgT8YRWw="
+        }
+      ]
+    },
+    {
+      "Route": "css/auth.g65qsrxblp.css",
+      "AssetFile": "css/auth.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uFSGwpd410JltskGn6mB2EOcqKEXdzQm55GqgT8YRWw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 10:04:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g65qsrxblp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uFSGwpd410JltskGn6mB2EOcqKEXdzQm55GqgT8YRWw="
+        },
+        {
+          "Name": "label",
+          "Value": "css/auth.css"
         }
       ]
     },

@@ -460,3 +460,4 @@ A:\Creation\GitHub Stuff\click-acc\ClickAcc\ClickAcc\obj\Debug\net8.0\refint\Cli
 A:\Creation\GitHub Stuff\click-acc\ClickAcc\ClickAcc\obj\Debug\net8.0\ClickAcc.pdb
 A:\Creation\GitHub Stuff\click-acc\ClickAcc\ClickAcc\obj\Debug\net8.0\ClickAcc.genruntimeconfig.cache
 A:\Creation\GitHub Stuff\click-acc\ClickAcc\ClickAcc\obj\Debug\net8.0\ref\ClickAcc.dll
+A:\Creation\GitHub Stuff\click-acc\ClickAcc\ClickAcc\obj\Debug\net8.0\ClickAcc.sourcelink.json

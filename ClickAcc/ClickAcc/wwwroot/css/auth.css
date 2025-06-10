@@ -1,3 +1,87 @@
+/* =========================================
+   GLOBAL STYLES - SHARED BETWEEN PAGES
+========================================= */
+
+body {
+    background: linear-gradient(135deg, #001f3f, #003366);
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f0f0f0;
+}
+
+input.form-control,
+select.form-control,
+textarea.form-control {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1.7px solid #334b87;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #1a2a56;
+    color: #f0f0f0;
+    transition: border-color 0.25s ease, background 0.25s ease;
+}
+
+    input.form-control::placeholder {
+        color: #a0afc4;
+    }
+
+    input.form-control:focus,
+    select.form-control:focus,
+    textarea.form-control:focus {
+        border-color: #00d1ff;
+        background: #22427a;
+        outline: none;
+        color: #f0f0f0;
+    }
+
+label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    display: block;
+    color: #d1d9e6;
+}
+
+.text-danger {
+    font-size: 0.85rem;
+    color: #d9534f;
+    margin-top: 4px;
+    display: block;
+}
+
+button.btn-primary,
+.btn-block {
+    padding: 12px 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #007CF0, #00DFD8);
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+    button.btn-primary:hover,
+    .btn-block:hover {
+        background: linear-gradient(90deg, #005bb5, #009e95);
+    }
+
+.text-center {
+    text-align: center;
+}
+
+/* =========================================
+   LOGIN PAGE STYLES
+========================================= */
+
 .login-box {
     max-width: 400px;
     margin: 70px auto;
@@ -6,7 +90,6 @@
     color: #f0f0f0;
     border-radius: 12px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .logo {
@@ -27,117 +110,74 @@
 .logo-slogan {
     font-size: 0.95rem;
     font-weight: 600;
-    color: #a0afc4; /* lighter soft blue */
+    color: #a0afc4;
     margin-top: 5px;
     letter-spacing: 0.04em;
-}
-
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-.form-group {
-    margin-bottom: 16px;
-}
-
-label {
-    font-weight: 600;
-    margin-bottom: 6px;
-    display: block;
-    color: #d1d9e6; /* soft light blue */
-}
-
-
-input.form-control {
-    width: 100%;
-    padding: 10px 12px;
-    border: 1.7px solid #334b87; /* navy border */
-    border-radius: 8px;
-    font-size: 1rem;
-    background: #1a2a56; /* dark navy input background */
-    color: #f0f0f0; /* light text */
-    transition: border-color 0.25s ease, background 0.25s ease;
-}
-
-    input.form-control::placeholder {
-        color: #a0afc4; /* lighter placeholder */
-    }
-
-    input.form-control:focus {
-        border-color: #00d1ff; /* bright cyan */
-        background: #22427a; /* slightly lighter navy */
-        outline: none;
-        color: #f0f0f0;
-    }
-
-.text-danger {
-    font-size: 0.85rem;
-    color: #d9534f;
-    margin-top: 4px;
-    display: block;
-}
-
-button.btn-primary {
-    padding: 12px 0;
-    font-size: 1.1rem;
-    font-weight: 700;
-    border-radius: 10px;
-    background: linear-gradient(90deg, #007CF0, #00DFD8);
-    border: none;
-    color: white;
-    cursor: pointer;
-    transition: background 0.3s ease;
-}
-
-    button.btn-primary:hover {
-        background: linear-gradient(90deg, #003d6a, #0055a4);
-    }
-
-/* Buttons container on home page */
-.button-group {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-/* Make buttons full width */
-.btn-block {
-    display: block;
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-    padding: 12px 0;
-    font-size: 1.1rem;
-    font-weight: 700;
-    border-radius: 10px;
-    background: linear-gradient(90deg, #007CF0, #00DFD8);
-    border: none;
-    color: white;
-    cursor: pointer;
-    transition: background 0.3s ease;
-    border: none;
-}
-
-    .btn-block:hover {
-        background: linear-gradient(90deg, #005bb5, #009e95);
-    }
-
-/* Shared background gradient for all pages */
-body {
-    background: linear-gradient(135deg, #001f3f, #003366);
-    min-height: 100vh;
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #f0f0f0; /* light text for contrast */
 }
 
 .g-recaptcha {
     display: inline-block;
 }
 
-.text-center {
-    text-align: center;
+/* =========================================
+   REGISTER PAGE STYLES (ULTRA-DETAILED)
+   - Customize these for more dense layout
+========================================= */
+
+.register-box {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 40px;
+    background: #0b1a3a;
+    border-radius: 14px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.75);
 }
 
+.register-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.form-section {
+    border-style: solid;
+    border-radius: 14px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.75);
+    border-color: #334b87;
+    border-width: 2px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.section-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #334b87;
+    padding-bottom: 4px;
+    color: #ffffff;
+}
+
+.register-header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+    .register-header h1 {
+        font-size: 2.5rem;
+        font-weight: 900;
+        margin-bottom: 10px;
+        background: linear-gradient(90deg, #007CF0, #00DFD8);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .register-header p {
+        font-size: 1rem;
+        color: #a0afc4;
+    }
